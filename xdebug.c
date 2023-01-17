@@ -777,8 +777,6 @@ ZEND_DLEXPORT void xdebug_init_oparray(zend_op_array *op_array)
 #define ZEND_EXT_API    ZEND_DLEXPORT
 #endif
 
-ZEND_EXT_API zend_extension_version_info extension_version_info = { ZEND_EXTENSION_API_NO, (char*) ZEND_EXTENSION_BUILD_ID };
-
 ZEND_DLEXPORT zend_extension zend_extension_entry = {
 	(char*) XDEBUG_NAME,
 	(char*) XDEBUG_VERSION,
