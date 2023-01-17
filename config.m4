@@ -9,22 +9,11 @@ PHP_ARG_ENABLE(xdebug-dev, whether to enable Xdebug developer build flags,
 PHP_ARG_WITH(xdebug-compression, [whether to compress profiler files (requires zlib)],
 [  --without-xdebug-compression     Xdebug: Disable compression through zlib],yes,no)
 
-m4_include([m4/pkg.m4])
-m4_include([m4/clocks.m4])
+m4_include([ext/xdebug/m4/pkg.m4])
+m4_include([ext/xdebug/m4/clocks.m4])
 
 if test "$PHP_XDEBUG" != "no"; then
   AC_MSG_CHECKING([Check for supported PHP versions])
-  PHP_XDEBUG_FOUND_VERSION=`${PHP_CONFIG} --version`
-  PHP_XDEBUG_FOUND_VERNUM=`echo "${PHP_XDEBUG_FOUND_VERSION}" | $AWK 'BEGIN { FS = "."; } { printf "%d", ([$]1 * 100 + [$]2) * 100 + [$]3;}'`
-  if test "$PHP_XDEBUG_FOUND_VERNUM" -lt "80000"; then
-    AC_MSG_ERROR([not supported. Need a PHP version >= 8.0.0 and < 8.3.0 (found $PHP_XDEBUG_FOUND_VERSION)])
-  else
-    if test "$PHP_XDEBUG_FOUND_VERNUM" -ge "80300"; then
-      AC_MSG_ERROR([not supported. Need a PHP version >= 8.0.0 and < 8.3.0 (found $PHP_XDEBUG_FOUND_VERSION)])
-    else
-      AC_MSG_RESULT([supported ($PHP_XDEBUG_FOUND_VERSION)])
-    fi
-  fi
   
   AC_DEFINE(HAVE_XDEBUG,1,[ ])
 
