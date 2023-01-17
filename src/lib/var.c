@@ -24,7 +24,7 @@
 #include "zend_smart_str.h"
 #include "zend_closures.h"
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 #include "lib/compat.h"
 #include "lib/lib_private.h"

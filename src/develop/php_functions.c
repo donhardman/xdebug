@@ -15,7 +15,7 @@
  */
 
 #include "lib/php-header.h"
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 #include "develop_private.h"
 #include "stack.h"

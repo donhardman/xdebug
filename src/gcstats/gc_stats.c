@@ -18,7 +18,7 @@
 #include "SAPI.h"
 #include "Zend/zend_long.h"
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "gc_stats_private.h"
 
 #include "base/base.h"

@@ -44,7 +44,7 @@
 #include "main/php_output.h"
 #include "ext/standard/php_var.h"
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "php_xdebug_arginfo.h"
 
 #include "base/base.h"

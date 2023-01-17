@@ -17,7 +17,7 @@
 #include "lib/php-header.h"
 #include "SAPI.h"
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "superglobals.h"
 
 #include "lib/compat.h"

@@ -22,7 +22,7 @@
 #include "lib/file.h"
 #include "lib/lib.h"
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 typedef struct _xdebug_profiler_globals_t {
 	zend_bool       active;

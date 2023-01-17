@@ -14,7 +14,7 @@
    +----------------------------------------------------------------------+
  */
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 #if PHP_WIN32
 # include "win32/time.h"

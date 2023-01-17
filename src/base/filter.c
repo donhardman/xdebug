@@ -13,7 +13,7 @@
    | derick@xdebug.org so we can mail you a copy immediately.             |
    +----------------------------------------------------------------------+
  */
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 #include "filter.h"
 

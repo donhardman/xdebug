@@ -15,7 +15,7 @@
  */
 #ifdef __linux__
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 #include <stdlib.h>
 #include <stdio.h>

@@ -23,7 +23,7 @@
 #include "php_globals.h"
 #include "Zend/zend_alloc.h"
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "profiler.h"
 #include "profiler_private.h"
 

@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "code_coverage_private.h"
 
 #include "lib/hash.h"

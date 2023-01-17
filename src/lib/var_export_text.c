@@ -22,7 +22,7 @@
 #endif
 
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 #include "var_export_text.h"
 

@@ -31,7 +31,7 @@
 #include "TSRM.h"
 
 #include "php_globals.h"
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 #include "com.h"
 #include "handler_dbgp.h"

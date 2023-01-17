@@ -16,7 +16,7 @@
 
 #ifdef __linux__
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 char *xdebug_get_ip_for_interface(const char *iface);
 

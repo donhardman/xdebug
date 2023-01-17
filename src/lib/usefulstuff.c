@@ -30,7 +30,7 @@
 # include <process.h>
 #endif
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 #include "mm.h"
 #include "crc32.h"

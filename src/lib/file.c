@@ -14,7 +14,7 @@
    +----------------------------------------------------------------------+
  */
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "lib_private.h"
 #include "log.h"
 

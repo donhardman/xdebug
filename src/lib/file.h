@@ -17,8 +17,8 @@
 #ifndef __HAVE_LIB_FILE_H__
 #define __HAVE_LIB_FILE_H__
 
-#include "php_xdebug.h"
-#include "src/lib/compat.h"
+#include "ext/xdebug/php_xdebug.h"
+#include "ext/xdebug/src/lib/compat.h"
 
 #if HAVE_XDEBUG_ZLIB
 # include <zlib.h>

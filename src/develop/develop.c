@@ -16,7 +16,7 @@
 #include "lib/php-header.h"
 #include "zend_exceptions.h"
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "monitor.h"
 #include "stack.h"
 #include "superglobals.h"

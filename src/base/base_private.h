@@ -17,7 +17,7 @@
 #ifndef __XDEBUG_BASE_PRIVATE_H__
 #define __XDEBUG_BASE_PRIVATE_H__
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 struct xdebug_fiber_entry {
 	xdebug_vector *stack;

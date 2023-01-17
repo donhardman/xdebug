@@ -15,7 +15,7 @@
  */
 #include "lib/php-header.h"
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "tracing_private.h"
 #include "trace_html.h"
 

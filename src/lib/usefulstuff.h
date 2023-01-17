@@ -17,8 +17,8 @@
 #ifndef __HAVE_USEFULSTUFF_H__
 #define __HAVE_USEFULSTUFF_H__
 
-#include "php_xdebug.h"
-#include "src/lib/compat.h"
+#include "ext/xdebug/php_xdebug.h"
+#include "ext/xdebug/src/lib/compat.h"
 
 typedef struct xdebug_arg {
 	int    c;

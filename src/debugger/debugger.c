@@ -14,7 +14,7 @@
    +----------------------------------------------------------------------+
  */
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 
 #include "ext/standard/info.h"
 #include "zend_exceptions.h"

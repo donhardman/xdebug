@@ -14,7 +14,7 @@
    +----------------------------------------------------------------------+
  */
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "com.h"
 #include "handlers.h"
 #include "handler_dbgp.h"

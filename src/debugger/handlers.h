@@ -17,7 +17,7 @@
 #ifndef __HAVE_XDEBUG_HANDLERS_H__
 #define __HAVE_XDEBUG_HANDLERS_H__
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "lib/compat.h"
 #include "lib/llist.h"
 #include "lib/hash.h"

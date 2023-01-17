@@ -31,7 +31,7 @@
 # include "Zend/zend_observer.h"
 #endif
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "php_xdebug_arginfo.h"
 
 #include "base.h"

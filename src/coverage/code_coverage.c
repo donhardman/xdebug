@@ -14,7 +14,7 @@
    +----------------------------------------------------------------------+
  */
 
-#include "php_xdebug.h"
+#include "ext/xdebug/php_xdebug.h"
 #include "zend_extensions.h"
 
 #include "branch_info.h"
